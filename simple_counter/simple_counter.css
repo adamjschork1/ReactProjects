@@ -1,0 +1,23 @@
+#view {
+  text-align: center;
+  margin: 50px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.inc {
+  background-color: green;
+}
+
+.dec {
+  background-color: red;
+}
+
+.reset {
+  background-color: orange;
+}
