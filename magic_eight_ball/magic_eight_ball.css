@@ -1,0 +1,25 @@
+input, button {
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 10px;
+}
+
+button:hover {
+  color: red;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid red;
+}
+
+@keyframes titleFlash {
+  50% {color: red;}
+  100% {color: white;}
+}
+
+#title {
+  animation-name: titleFlash;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
