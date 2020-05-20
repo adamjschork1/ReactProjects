@@ -1,4 +1,8 @@
 {
   "name": "fcc-learn-npm-package-json",
-  "author": "Adam Schork"
+  "author": "Adam Schork",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamjschork1/ReactProjects/npm_dummy/package.json"
+  }
 }
